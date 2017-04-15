@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+#menu  {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+#menu li a {
+    background-color: #94618E;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: BLACK;
+    border-radius: 4px 4px 0 0;
+}
+
+#menu li a:hover {
+    color: #F6D8CE;
+    background-color: #49274A;
+}
+body{
+	background-color:  #fef9e7 ;
+}
+#parentDiv
+{
+    position:relative;
+    min-height:700px;
+}
+#sidebar
+    {
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    top:0px;
+    width:100px;
